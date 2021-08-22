@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Orbitron:wght@400;900&display=swap');
+
+
+  h1, h2, h3, h4{
+    font-family: 'Gruppo';
+    font-weight: 400; 
+    margin-top: 1em;
+    margin-bottom: .5em;
+  }
+  .gradient {
+    background: linear-gradient(0deg, #ee7752, #e73c7e, #d24c1f, #e79106);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  .container .jumbotron{
+    overflow: hidden;
+  }
+  .jumbotron{
+    margin-left: -15%;
+    margin-right: -16%;
+  }
+  .jumbotron h1{
+      font-weight: 600;
+      font-family: 'Orbitron', sans-serif;
+      background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(185, 185, 185));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+  }
+
+  .bottom_half {
+    border-radius: 0 !important;
+    border-bottom-left-radius: 50% !important;
+    border-bottom-right-radius: 50% !important;
+  }
+
+  .hemispheres
+  .modal-body img{
+    width:fit-content;
+  }
+
+  .table_zero, 
+  .table_zero td, 
+  .table_zero th, 
+  .table_zero thead tr th,
+  .table_zero tbody tr th   {
+    border-width: 0pt !important;
+  }
+  .table_zero tbody tr{
+    border-top: 1px solid #ddd;
+  }
+  .img-thumbnail{
+    border:none;
+  }
+  .media {
+    margin-bottom: 2em;
+  }
+
+  .mars-featured-image{
+    background-color: black;
+    color:whitesmoke;
+  }
+
+  .mars-featured-image h2{
+    margin-top:0;
+  }
